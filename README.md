@@ -1,9 +1,13 @@
 Trabajo Práctico nº2 REACT
 
 Alumnos:
+
 Pollio, Thiago FAI-4266
+
 thiago.pollio@est.fi.uncoma.edu.ar
+
 Salgado, Sol FAI-4267
+
 sol.salgado@est.fi.uncoma.edu.ar
 
 Consigna:
