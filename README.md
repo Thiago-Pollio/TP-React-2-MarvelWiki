@@ -21,7 +21,7 @@ usuario.
 Descripción:
 Marvel Wiki es una aplicación web que permite a los usuarios explorar personajes del universo Marvel, tanto héroes como villanos. Los usuarios pueden navegar por categorías, ver información de cada personaje, y marcar sus favoritos para tenerlos a mano. La app soporta múltiples idiomas (español e inglés) con cambio dinámico mediante una bandera en el encabezado, y utiliza datos provenientes de APIs(creadas en Mockapi.io). También tiene un buscador que permite facilitar la búsqueda de personajes. Está desarrollada con React, Tailwind CSS y react-i18next para la internacionalización.
 
-Link a la app: 
+Link a la app: https://tp-react-2-marvel-wiki.vercel.app/
 
 Instrucciones de instalación (correr cada comando):
 
