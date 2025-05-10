@@ -24,7 +24,8 @@ const resources = {
       peso: "Weight:",
       poderes: "Powers:",
       personajes: "Characters",
-      inicio: "Home"
+      inicio: "Home",
+      favoritos: "Your favorites"
     }
   },
   es: {
@@ -49,7 +50,8 @@ const resources = {
       peso: "Peso:",
       poderes: "Poderes:",
       personajes: "Personajes",
-      inicio: "Inicio"
+      inicio: "Inicio",
+      favoritos: "Tus favoritos"
     }
   }
 };

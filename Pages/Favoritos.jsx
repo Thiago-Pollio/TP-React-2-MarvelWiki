@@ -45,26 +45,34 @@ const Favoritos = () => {
   }
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-6">
-      {favoritos.map((personaje) => (
-        <div key={personaje.id} className="bg-white p-4 rounded shadow-md">
-          <img
-            src={personaje.imagen}
-            alt={personaje.nombre}
-            className="w-full h-64 object-cover rounded mb-4"
-          />
-          <h3 className="text-xl font-semibold text-gray-800 mb-2">
-            {personaje.nombre}
-          </h3>
-          <p className="text-gray-600 text-sm mb-4">{personaje.descripcion}</p>
-          <Link
-            to={`/personaje/${personaje.id}`}
-            className="px-4 py-2 bg-blue-600 text-white rounded text-sm hover:bg-blue-700 transition"
-          >
-            {t("verMas")}
-          </Link>
-        </div>
-      ))}
+    <div>
+      <h2 className="text-3xl font-semibold text-gray-800 mb-2 mt-8 px-4">
+        ⭐ {t("favoritos")}
+      </h2>
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-6">
+        {favoritos.map((personaje) => (
+          <div key={personaje.id} className="bg-white p-4 rounded shadow-md">
+            <img
+              src={personaje.imagen}
+              alt={personaje.nombre}
+              className="w-full h-64 object-cover rounded mb-4"
+            />
+            <h3 className="text-xl font-semibold text-gray-800 mb-2">
+              {personaje.nombre}
+            </h3>
+            <p className="text-gray-600 text-sm mb-4">
+              {personaje.descripcion}
+            </p>
+            <Link
+              to={`/personaje/${personaje.id}`}
+              className="px-4 py-2 bg-blue-600 text-white rounded text-sm hover:bg-blue-700 transition"
+            >
+              {t("verMas")}
+            </Link>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
